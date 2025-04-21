@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", "Open Sans", sans-serif, Arial, sans-serif;
+}
+
+body {
+    background-color: hsl(0, 0%, 8%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+}
+
+.card {
+    background-color: hsl(0, 0%, 12%);
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+    transform: scale(0.9);
+}
+
+.avatar img{
+    width: 65px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.text h2 {
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+    font-size: 1.3rem;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.city {
+    color: hsl(75, 94%, 57%);
+    font-weight: 400;
+    font-size: 0.9rem;
+    margin: 8px 0 15px;
+}
+
+.description {
+    color: #fff;
+    font-weight: 300;
+    font-size: 0.8rem;
+    margin: 0 0 15px;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: -15px;
+}
+
+.cards a{
+    background-color: hsl(0, 0%, 20%);
+    color: #fff;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border-radius: 8px;
+    font-size: 0.9rem;
+}
+
+.cards a:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 8%);
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+@media (min-width: 375px) {
+    .card {
+        width: 375px;
+    }
+}
+
+.attribution {
+    color: #fff;
+    font-size: 11px;
+    text-align: center;
+    display: flex;
+    position: fixed;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    justify-content: center;
+}
+
+.attribution a{
+    color: rgb(0, 110, 255);
+}
+
+footer {
+    margin: 0;
+    padding: 0;
+}
